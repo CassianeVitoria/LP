@@ -1,1 +1,1 @@
-# Linguagem ce programação
+# Linguagem de programação
