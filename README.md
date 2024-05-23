@@ -26,7 +26,6 @@ php artisan make:migration create_users_table --create=users
 executar
 php artisan migrate
 
-php artisan db:seed
  
 php artisan db:seed --class=ProdutosSeeder
 
