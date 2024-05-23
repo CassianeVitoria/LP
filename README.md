@@ -16,14 +16,18 @@ php artisan migrate
 vendor/laravel/framework/scr/Illuminate/Http/Middleware/trusproxies.php
 protected $proxies='*';
 
+
 Criar
 php artisan make:model -mrc cliente
-
 php artisan make:migration create_users_table
-
 php artisan make:migration create_users_table --create=users
 
-executar
 
+executar
 php artisan migrate
 
+php artisan db:seed
+ 
+php artisan db:seed --class=ProdutosSeeder
+
+php artisan make:seeder ProdutosSeeder
